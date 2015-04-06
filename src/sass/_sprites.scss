@@ -1,0 +1,5 @@
+/*compass spriting*/
+
+@import "compass/utilities/sprites"; /*Imports compass utilities*/
+@import "../../assets/img/*.png";
+@include all-img-sprites; /*imports all sprite images and converts them into .svg single lined png file*/
